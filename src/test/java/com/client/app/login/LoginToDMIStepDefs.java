@@ -6,6 +6,7 @@ import cucumber.annotation.en.When;
 
 public class LoginToDMIStepDefs {
 
+
 	 
 	 public LoginToDMIStepDefs()
 		    {
@@ -20,9 +21,11 @@ public class LoginToDMIStepDefs {
     	//TO-DO
     }
 
-    @When("i login using user name and password")
+    @When("I login using user name and password")
     public void Input_info()  {
     	//TO-DO
+    	//inputUsername();
+    	
     	
     }
 
