@@ -14,7 +14,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 
 public class CommonFunctions {	
-	   WebDriver driver;
+	public   WebDriver driver;
 	   
 	public void setUp() throws MalformedURLException, InterruptedException{
         
@@ -28,7 +28,7 @@ public class CommonFunctions {
        capabilities.setCapability("app-activity", "com.dmi.notification.view.activity.SplashScreen"); // This is Launcher activity of your app (you can get it from apk info app)
           //Create RemoteWebDriver instance and connect to the Appium server.
        driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-       
+       //return(driver);
    }
 	
 	public void installapp() {
